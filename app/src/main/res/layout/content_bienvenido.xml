@@ -20,7 +20,9 @@
         <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
                 android:hint="Introduce tu peso" android:id="@+id/txtpeso"/>
+
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
             android:layout_width="395dp"
@@ -33,6 +35,8 @@
         <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Introduce tu altura" android:id="@+id/txtaltura"/>
+                android:hint="Introduce tu altura"
+                android:inputType="numberDecimal"
+                android:id="@+id/txtaltura"/>
     </com.google.android.material.textfield.TextInputLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
